@@ -16,8 +16,8 @@
 </script>
 
 <main>
-    <h1>Meme Generator</h1>
-    <h3>A place to find them all</h3>
+    <h1 class="poppins-regular">Meme Generator</h1>
+    <h3 class="kanit-regular">A place to find them all</h3>
     <img class="meme-image" src={memeUrl} alt="Meme Image"/>
     <button on:click={changeImage}>Get Another Meme</button>
 </main>

@@ -1,0 +1,68 @@
+/* global.css */
+
+body {
+    background-color: #2F3645;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #EEEDEB;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #E6B9A6;
+    margin-top: 0;
+}
+
+.meme-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #E6B9A6; /* Light pink color */
+    color: #2F3645; /* Dark background color */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif; /* Use Poppins font */
+    font-weight: 400;
+    font-style: normal;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #D99D85; /* Darker shade on hover */
+}
