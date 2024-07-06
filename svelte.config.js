@@ -1,6 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 
-const dev = porcess.argv.includes('dev');
+const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
