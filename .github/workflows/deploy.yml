@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/Meme-Generator'
+          BASE_PATH: '/Meme-Generator/'
         run: |
           npm run build
           touch build/.nojekyll
